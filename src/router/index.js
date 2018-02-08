@@ -16,9 +16,9 @@ export default new Router({
       // component: App,
       children: [
           { path: '/', component: home, name: '默认' },
-          { path: 'home', component: home, name: '首页' },
-          { path: 'table', component: table, name: '表格' },
-          { path: 'form', component: form, name: '表单' }
+          { path: '/home', component: home, name: '首页' },
+          { path: '/table', component: table, name: '表格' },
+          { path: '/form', component: form, name: '表单' }
       ]
     }
   ]
