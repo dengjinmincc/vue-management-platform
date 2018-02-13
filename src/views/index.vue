@@ -1,9 +1,15 @@
 <template>
-  <h3>Index</h3>
+  <v-chart/>
 </template>
 
 <script>
+import echart from './echart.vue'
 
+export default {
+  components: {
+    'v-chart': echart
+  }
+}
 </script>
 
 <style>

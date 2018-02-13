@@ -6,6 +6,7 @@ import router from './router'
 import 'normalize.css'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import 'font-awesome/css/font-awesome.min.css'
 
 Vue.use(ElementUI)
 
