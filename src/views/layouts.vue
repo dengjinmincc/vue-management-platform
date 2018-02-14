@@ -3,7 +3,7 @@
     <v-header :user="user"></v-header>
     <el-col :span="24" class="main">
       <el-row>
-        <v-aside></v-aside>
+        <v-aside class="aside"></v-aside>
         <section class="content">
           <el-col :span="21" :offset="3">
             <transition>
@@ -41,7 +41,14 @@ export default {
 </script>
 
 <style lang="scss">
-  .el-row {
-    height: 100%;
+  .content {
+    width: 77%;
+    float: right;
+    .el-col {
+      margin-left: 0;
+    }
+    .el-col-21 {
+      width: 100%;
+    }
   }
 </style>

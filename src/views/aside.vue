@@ -19,7 +19,8 @@
 
 <style lang="scss">
   .el-aside {
-    height: 100%;
+    height: 650px;
+    float: left;
     a {
       text-decoration: none;
     }
